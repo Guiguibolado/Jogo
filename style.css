@@ -1,0 +1,12 @@
+/* estilo simples para o jogo */
+*{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+body{background: linear-gradient(#87CEFA,#6CC6FF); margin:0; color:#222; display:flex; flex-direction:column; align-items:center; gap:8px; padding:14px}
+h1{margin:0}
+.gamewrap{border:6px solid #2b5d9a; background:linear-gradient(#9ad3ff,#7ec7ff); border-radius:8px; padding:8px}
+canvas{display:block; background:linear-gradient(#8ad67a,#50b84a); border-radius:4px}
+.hud{margin-top:8px; display:flex; gap:16px}
+#score,#lives{background:rgba(255,255,255,0.85); padding:6px 10px; border-radius:6px; font-weight:600}
+
+
+/* Estilos para simular 'pixel art' do personagem */
+.mini{image-rendering: pixelated}
